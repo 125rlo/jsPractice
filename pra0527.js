@@ -74,7 +74,8 @@ console.log처럼 document는 많은 .(점) 어떤걸 가지고 있어
 
 */
 
-const title = document.getElementById("title");
+//const title = document.getElementById("title");
+const title = document.querySelector("#title");
 title.innerHTML = "Hi! From JS"
 
 /*
@@ -83,8 +84,8 @@ DOM(Document Object Model)형태로 변경 가능해
 네 페이지에서 자바스크립트로 선택한것은 객체(object)까 되지.
 */
 
-
-
+title.style.color = "red"
+document.title = "kkk"
 
 
 
